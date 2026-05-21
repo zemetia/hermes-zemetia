@@ -1,29 +1,24 @@
-# Hermes / Zemetia local runtime and secrets
+# Secrets / credentials — jangan pernah commit ini walau repo private
 .env
 .env.*
 !.env.example
 auth.json
 auth.lock
-config*.bak*
-channel_directory.json
-gateway_state.json
-gateway.pid
-gateway.lock
-*.lock
+**/auth.json
+**/.ssh/id_*
+**/.ssh/*_rsa
+**/.ssh/*_ed25519
+**/.ssh/*_ecdsa
+**/.ssh/*_dsa
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*private-key*
+**/*secret*.json
+**/*credentials*.json
+**/*token*.json
 
-# Private keys / credentials
-.ssh/
-*.pem
-*.key
-*.crt
-*.p12
-*.pfx
-*.kdbx
-*token*
-*secret*
-*credentials*
-
-# Databases / local state
+# Runtime databases / local state
 *.db
 *.sqlite
 *.sqlite3
@@ -33,58 +28,37 @@ gateway.lock
 *.sqlite-wal
 state.db*
 kanban.db*
+gateway_state.json
+gateway.pid
+gateway.lock
+*.lock
 
-# Logs
+# Logs / sessions / volatile runtime
 logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Agent/browser/cache/runtime output
+sessions/
+cron/output/
 cache/
 .cache/
-cron/output/
-.sessions/
-sessions/
 pastes/
 pairing/
 .agent-browser/
 playwright-report/
 test-results/
 
-# Generated media / large artifacts
-audio_cache/
-image_cache/
-images/
-screenshots/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.webp
-*.mp4
-*.mov
-*.mp3
-*.wav
-*.flac
-*.zip
-*.tar
-*.tar.gz
-*.tgz
-*.7z
-*.rar
-
-# Python
+# Dependency folders / build artifacts — bisa diinstall/generate ulang
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.next/
+.nuxt/
+.svelte-kit/
 __pycache__/
 *.py[cod]
-*$py.class
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.coverage
-htmlcov/
 .tox/
 .nox/
 .venv/
@@ -95,29 +69,27 @@ site-packages/
 dist/
 build/
 *.egg-info/
-
-# Node / JS / TS
-node_modules/
-.npm/
-.pnpm-store/
-.yarn/
-.next/
-.nuxt/
-.svelte-kit/
-dist/
-build/
 coverage/
+htmlcov/
 *.tsbuildinfo
 
-# Package-manager lockfiles: keep them by default for reproducibility
-# Uncomment if this repo is only notes/config and you don't want lockfiles:
-# package-lock.json
-# pnpm-lock.yaml
-# yarn.lock
-# poetry.lock
-# uv.lock
+# Package manager / debug noise
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Editors / OS
+# Large generated caches/artifacts
+audio_cache/
+image_cache/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Editors / OS / temp
 .DS_Store
 Thumbs.db
 .vscode/
@@ -125,8 +97,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
-
-# Temporary files
 tmp/
 temp/
 *.tmp

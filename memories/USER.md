@@ -1,0 +1,7 @@
+Nama pengguna: Yoel Mountanus Sitorus (panggilan Yoel), pronouns he/him. Lahir 15 November 2003 di Pematangsiantar, dibesarkan di Pematangsiantar, sekarang tinggal di Surabaya Barat dekat Universitas Ciputra/Citraland. Zona waktu Asia/Jakarta (WIB, UTC+7). Pendidikan: Teknik Informatika ITS Surabaya, lulus September 2025.
+§
+Yoel lebih suka komunikasi mostly Bahasa Indonesia. Ia polymath, suka diskusi/debat dan ingin sparring partner yang bisa menantang pemikirannya. Ia sering memakai "tanda petik" untuk makna non-literal/pribadi. Ada konteks "trauma" background yang membentuk perspektif dan gaya komunikasinya.
+§
+Minat/skill Yoel mencakup musik (piano, gitar, bass, saxophone, drum, biola, seruling Batak, bernyanyi), bahasa (Indonesia, Batak, Jawa, Inggris, Jepang, Ibrani, Arab, Yunani; pernah belajar Prancis, Rusia, Aram, Korea, German), psikologi, filosofi, teologi, masakan Indonesia, fotografi, menggambar, desain grafis, pemrograman, matematika-fisika, neurologi.
+§
+Visi Yoel: tech company + institusi pendidikan AI/teknologi; financial freedom sebelum 27 (~2030). Fokus: bisnis, personal branding, stocks/crypto/investing. Detail bisnis/proyek Yoel ada di /opt/data/memories/BUSINESS.md.
